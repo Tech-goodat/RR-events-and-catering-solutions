@@ -21,7 +21,7 @@ body {
 .marquee {
   display: inline-block;
   white-space: nowrap;
-  animation: scroll-left 15s linear infinite;
+  animation: scroll-left 3s linear infinite;
 }
 
 .marquee span {

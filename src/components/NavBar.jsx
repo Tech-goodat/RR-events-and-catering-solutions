@@ -18,7 +18,7 @@ const NavBar = ({ activeSection }) => {
 
   return (
     <div className='fixed  top-0 left-0 z-50 flex w-full items-center justify-between lg:justify-center h-[50px] p-5 shadow-md bg-white'>
-      <a href='#home' className="font-bold">Logo</a>
+      <a href='#home' className="font-bold text-orange-400">RR Events</a>
       <div className='lg:flex w-full ml-5 hidden items-center justify-between'>
       <a href='#home' className={linkClass('home')}><FaHome size={20} />Home</a>
       <a href='#about' className={linkClass('about')}><FaQuestionCircle size={20}/>About</a>

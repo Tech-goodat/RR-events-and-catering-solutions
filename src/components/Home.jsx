@@ -4,13 +4,13 @@ const Home = () => {
   return (
     <div className='flex container overflow-x-hidden flex-col  text-gray-700 font-bold w-full items-center justify-center h-full lg:h-screen'>
       <img src='/background1.jpg' alt="image" className='w-full h-auto'/>
-      <h1 className=" p-5 lg:text-4xl text-4xl font-bold text-center mb-2">
+      <h1 className=" p-5 lg:text-4xl text-3xl font-bold text-center mb-2">
          Bringing Flavor, Flair & Full Event Magic
       </h1>
-      <h1 className="lg:text-4xl px-5 text-3xl text-orange-300 font-bold text-center mb-4">
+      <h1 className="lg:text-4xl px-5 text-3xl text-orange-400 font-bold text-center mb-4">
         To Your Special Day
       </h1>
-    <p  className="px-5 lg:text-[19px] text-[19px] font-bold text-center text-gray-700 max-w-2xl mx-auto">
+    <p  className="px-5 lg:text-[19px] text-[16px] font-bold text-center text-gray-700 max-w-2xl mx-auto">
       From meals to music, tents to planning we handle it all so you can relax and enjoy your event.
     </p>
     <div className='w-full flex items-center justify-center px-5'>

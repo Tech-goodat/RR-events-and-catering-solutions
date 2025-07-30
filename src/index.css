@@ -11,7 +11,7 @@ body {
 }
 
 
-.container {
+/* .container {
   position: relative;
   background-image: url('/background4.jpg');
   background-size: cover;
@@ -38,4 +38,4 @@ body {
 .container > * {
   position: relative;
   z-index: 2;
-}
+} */

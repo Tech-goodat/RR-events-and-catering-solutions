@@ -28,7 +28,7 @@ const NavBar = ({ activeSection }) => {
 
       </div>
       <button onClick={toggleMenu} className='lg:hidden text-gray-700'>
-        {isOpen ? <IoMdClose />:<FaBars />}
+        {isOpen ? <IoMdClose size={25}/>:<FaBars size={25}/>}
       </button>
       {isOpen && (
         <div className='absolute top-12 left-0 w-full bg-white shadow-lg h-screen p-5 flex flex-col gap-10 items-start'>

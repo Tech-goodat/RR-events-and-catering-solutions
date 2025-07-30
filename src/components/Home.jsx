@@ -10,9 +10,14 @@ const Home = () => {
       <h1 className=" p-5 lg:text-4xl text-3xl font-bold text-center mb-2">
          Bringing Flavor, Flair & Full Event Magic
       </h1>
-      <h1 className="lg:text-4xl px-5 text-3xl text-orange-400 font-bold text-center mb-4">
-        To Your Special Day
-      </h1>
+      <div className="marquee">
+  <span>
+    <h1 className="lg:text-4xl px-5 text-3xl text-orange-400 font-bold text-center mb-4">
+      To Your Special Day
+    </h1>
+  </span>
+</div>
+
     <p  className="px-5 lg:text-[19px] text-[16px] font-bold text-center text-gray-700 max-w-2xl mx-auto">
       From meals to music, tents to planning we handle it all so you can relax and enjoy your event.
     </p>

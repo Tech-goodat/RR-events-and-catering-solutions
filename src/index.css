@@ -1,5 +1,20 @@
 @import "tailwindcss";
 html {
   scroll-behavior: smooth;
-  
+
+}
+
+.container{
+    background-image: url('/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+    
 }

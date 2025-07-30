@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='flex overflow-x-hidden flex-col p-5 text-gray-700 w-full items-center justify-center h-screen'>
+    <div className='flex container overflow-x-hidden flex-col p-5 text-gray-700 w-full items-center justify-center h-screen'>
       <h1 className=" lg:text-4xl text-3xl font-bold text-center mb-2">
          Bringing Flavor, Flair & Full Event Magic
       </h1>

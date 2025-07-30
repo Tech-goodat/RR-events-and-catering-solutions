@@ -7,7 +7,7 @@ const Footer = () => {
         
         {/* Brand */}
         <div>
-          <h2 className="text-xl font-semibold mb-4">RR Events & Catering</h2>
+          <h2 className="text-xl font-semibold text-orange-400 mb-4">RR Events & Catering</h2>
           <p className="text-gray-400">
             Bringing your events to life — from planning to catering, we’ve got you covered.
           </p>
@@ -15,7 +15,7 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+          <h3 className="text-lg text-orange-400 font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-gray-300">
             <li><a href="#" className="hover:text-white">Home</a></li>
             <li><a href="#" className="hover:text-white">Services</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Contact</h3>
+          <h3 className="text-lg text-orange-400 font-semibold mb-4">Contact</h3>
           <ul className="space-y-2 text-gray-300">
             <li>Email: <a href="mailto:felixkiprotich2000@gmail.com" className="hover:text-white">Send a message</a></li>
             <li>Phone: <a href="tel:+254758364336" className="hover:text-white">+254 758 364 336</a></li>
@@ -36,7 +36,7 @@ const Footer = () => {
 
         {/* Social Media */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+          <h3 className="text-lg text-orange-400 font-semibold mb-4">Follow Us</h3>
           <div className="flex flex-col gap-3 space-x-4 text-xl text-gray-300">
             <a href="#" className="hover:text-white"><FaFacebook /></a>
             <a href="#" className="hover:text-white"><FaTwitter /></a>

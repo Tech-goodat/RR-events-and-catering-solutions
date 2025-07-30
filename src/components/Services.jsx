@@ -15,7 +15,7 @@ const Services = () => {
       <div className='flex w-full items-center justify-between'>
         <button onClick={HandleEmailSends} className='flex items-center justify-center gap-2 border border-gray-200 p-1 text-[12px] w-[100px] rounded-lg'><MdMarkEmailRead /> Send Email</button>
         <h1 className='text-xl font-bold '>Our Services</h1>
-        <button onClick={handleCall} className='fle w-[100px] bg-orange-500 text-white text-[12px] font-bold p-2 rounded-full shadow-sm'>Get in Touch</button>
+        <button onClick={handleCall} className='fle w-[100px] bg-orange-500 text-white text-[12px] font-bold p-2 rounded-full shadow-sm'>Make a Call</button>
       </div>
     </div>
   )

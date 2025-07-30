@@ -31,7 +31,7 @@ const NavBar = ({ activeSection }) => {
         {isOpen ? <IoMdClose />:<FaBars />}
       </button>
       {isOpen && (
-        <div className='absolute top-12 left-0 w-full bg-white shadow-lg p-5 flex flex-col items-start'>
+        <div className='absolute top-12 left-0 w-full bg-white shadow-lg p-5 flex flex-col gap-10 items-start'>
           <a href='#home' className={linkClass('home')} onClick={toggleMenu}><FaHome size={20} />Home</a>
           <a href='#about' className={linkClass('about')} onClick={toggleMenu}><FaQuestionCircle size={20}/>About</a>
           <a href='#contact' className={linkClass('contact')} onClick={toggleMenu}><IoIosContacts size={20}/>Contact</a>

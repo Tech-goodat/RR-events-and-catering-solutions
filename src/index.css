@@ -1,20 +1,41 @@
 @import "tailwindcss";
+
 html {
   scroll-behavior: smooth;
-
 }
 
-.container{
-    background-image: url('/background.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    
-    
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.container {
+  position: relative;
+  background-image: url('/background3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+
+.container > * {
+  position: relative;
+  z-index: 2;
 }

@@ -25,6 +25,7 @@ const NavBar = ({ activeSection }) => {
       <a href='#contact' className={linkClass('contact')}><IoIosContacts size={20}/>Contact</a>
       <a href='#services' className={linkClass('services')}><FaServicestack size={20}/>Services</a>
       <a href='#tips' className={linkClass('tips')}><MdOutlineTipsAndUpdates size={20}/>Tips</a>
+      <a href='#testimonials' className={linkClass('testimonials')}><MdOutlineTipsAndUpdates size={20}/>Testimonials</a>
 
       </div>
       <button onClick={toggleMenu} className='lg:hidden text-gray-700'>
@@ -37,6 +38,7 @@ const NavBar = ({ activeSection }) => {
           <a href='#contact' className={linkClass('contact')} onClick={toggleMenu}><IoIosContacts size={20}/>Contact</a>
           <a href='#services' className={linkClass('services')} onClick={toggleMenu}><FaServicestack size={20}/>Services</a>
           <a href='#tips' className={linkClass('tips')} onClick={toggleMenu}><MdOutlineTipsAndUpdates size={20}/>Tips</a>
+          <a href='#testimonials' className={linkClass('testimonials')} onClick={toggleMenu}><MdOutlineTipsAndUpdates size={20}/>Testimonials</a>
         </div>
       )}
     </div>

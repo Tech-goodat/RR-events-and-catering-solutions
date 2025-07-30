@@ -5,6 +5,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Services from './components/Services';
 import Tips from './components/Tips';
+import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 const App = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -15,6 +17,7 @@ const App = () => {
     contact: useRef(null),
     services: useRef(null),
     tips: useRef(null),
+    testimonials: useRef(null),
   };
 
   useEffect(() => {
@@ -61,6 +64,13 @@ const App = () => {
         <section id='tips' ref={sectionRefs.tips} className='w-full pt-2'>
           <Tips />
         </section>
+        <section id='testimonials' ref={sectionRefs.testimonials} className='w-full pt-2'>
+          <Testimonials />
+        </section>
+        <section id='footer' ref={sectionRefs.footer} className='w-full pt-2'>
+          <Footer />
+        </section>
+
       </div>
     </div>
   );

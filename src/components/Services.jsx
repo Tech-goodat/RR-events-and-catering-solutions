@@ -17,6 +17,12 @@ const Services = () => {
         <h1 className='text-xl font-bold '>Our Services</h1>
         <button onClick={handleCall} className='flex items-center justify-center cursor-pointer w-[100px] bg-orange-500 text-white text-[12px] font-bold p-2 rounded-full shadow-sm'>Make a Call</button>
       </div>
+      <div className='flex flex-col w-full mt-5 lg:grid lg:grid-cols-4 gap-5'>
+        <div className='flex bg-gray-50 w-full items-center justify-center flex-col shadow-md h-[300px]'>section 1</div>
+        <div className='flex bg-gray-50 w-full items-center justify-center flex-col shadow-md h-[300px]'>section 1</div>
+        <div className='flex bg-gray-50 w-full items-center justify-center flex-col shadow-md h-[300px]'>section 1</div>
+        <div className='flex bg-gray-50 w-full items-center justify-center flex-col shadow-md h-[300px]'>section 1</div>
+      </div>
     </div>
   )
 }

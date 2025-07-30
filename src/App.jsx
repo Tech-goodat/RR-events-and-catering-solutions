@@ -26,7 +26,7 @@ const App = () => {
           }
         });
       },
-      { threshold: 0.6 } // Trigger when 60% of the section is visible
+      { threshold: 0.6 } 
     );
 
     Object.values(sectionRefs).forEach(ref => {

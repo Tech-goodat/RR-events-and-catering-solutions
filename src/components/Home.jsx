@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Home = () => {
+  const handleWhatsApp=()=>{
+        window.location.href="https://wa.me/254758364336?text=Hello there.Thanks for reaching out to RR Events and Catering Solutions. How May I help you? ", "_blank"
+    }
   return (
     <div className='flex container overflow-x-hidden flex-col  text-gray-700 font-bold w-full items-center justify-center h-full lg:h-screen'>
       <img src='/background1.jpg' alt="image" className='w-full h-auto'/>
@@ -14,7 +17,7 @@ const Home = () => {
       From meals to music, tents to planning we handle it all so you can relax and enjoy your event.
     </p>
     <div className='w-full flex items-center justify-center px-5'>
-    <button className='flex w-full lg:w-[300px] rounded-full items-center justify-center bg-orange-400 text-[13px] p-2.5 font-bold text-white mt-7 cursor-pointer'>Get In Touch</button>
+    <button onClick={handleWhatsApp} className='flex w-full lg:w-[300px] rounded-full items-center justify-center bg-orange-400 text-[13px] p-2.5 font-bold text-white mt-7 cursor-pointer'>Get In Touch</button>
     </div>
     </div>
   )

@@ -25,7 +25,7 @@ const About = () => {
             className='rounded-xl w-full h-full object-cover'
           />
         </div>
-        <div className='w-full h-200px] lg:h-[350px]'>
+        <div className='w-full h-[200px] lg:h-[350px]'>
           <img 
             src='/pic2.jpg' 
             alt='pic' 

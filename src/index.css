@@ -10,5 +10,23 @@ body {
   overflow-x: hidden;
 }
 
+/* Card slider animation for Services.jsx */
+.card-slider {
+  animation: slideRight 20s linear infinite;
+}
+
+.card-slider:hover {
+  animation-play-state: paused;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 

@@ -3,6 +3,19 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdMarkEmailRead } from "react-icons/md";
 import { IoMdPin } from "react-icons/io";
+ const handleWhatsApp=()=>{
+        window.location.href="https://wa.me/254758364336?text=Hello there.Thanks for reaching out to RR Events and Catering Solutions. How May I help you? ", "_blank"
+    }
+
+     const HandleEmailSends=()=>{
+        window.location.href="https://mail.google.com/mail/?view=cm&fs=1&to=felixkiprotich2000@gmail.com&su=Thank you for reaching out to RR Events and Catering Solutions&body=Hello there.Thanks for reaching out to RR Events and Catering Solutions. How May I help you?",
+            "_blank", "_blank"
+    }
+
+    const handleCall=()=>{
+        window.location.href="tel:+254758364336"
+    }
+
 
 const Contact = () => {
   return (
@@ -14,9 +27,9 @@ const Contact = () => {
     <p className='text-gray-600  text-[12px] '>We'd love to hear from you!
 Have a question, suggestion, or need support? <span className='font-bold text-orange-400 ml-2'>Feel free to reach out.</span> Our team is ready to assist you!</p>
     <div className='flex text-gray-500 gap-8 w-full flex-col mt-5'>
-      <button  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><FaPhoneAlt  size={15} className='text-lime-600'/> <span> Click to make a call : +254-758-364-336</span></button>
-      <button  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[11px] font-bold'><FaWhatsapp size={15} className='text-lime-600' /> <span>Click here to chat on whatsapp</span></button>
-      <button  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><MdMarkEmailRead size={15} className='text-lime-600' /> <span>Click to send email : felixkiprotich2000@gmail.com</span></button>
+      <button onClick={handleCall}  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><FaPhoneAlt  size={15} className='text-lime-600'/> <span> Click to make a call : +254-758-364-336</span></button>
+      <button  onClick={handleWhatsApp} className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[11px] font-bold'><FaWhatsapp size={15} className='text-lime-600' /> <span>Click here to chat on whatsapp</span></button>
+      <button onClick={HandleEmailSends}  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><MdMarkEmailRead size={15} className='text-lime-600' /> <span>Click to send email : felixkiprotich2000@gmail.com</span></button>
       <button  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><IoMdPin size={15} className='text-lime-600' /> <span>Kericho county, Kenya.</span></button>
       </div>
 </div>

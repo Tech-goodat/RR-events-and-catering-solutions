@@ -51,12 +51,13 @@ const App = () => {
         <section id='home' ref={sectionRefs.home} className='w-full pt-2'>
           <Home />
         </section>
+         <section id='about' ref={sectionRefs.about} className='w-full pt-2'>
+          <About />
+        </section>
         <section id='services' ref={sectionRefs.services} className='w-full pt-2'>
           <Services />
         </section>
-        <section id='about' ref={sectionRefs.about} className='w-full pt-2'>
-          <About />
-        </section>
+       
         <section id='contact' ref={sectionRefs.contact} className='w-full pt-2'>
           <Contact />
         </section>

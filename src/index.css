@@ -37,5 +37,23 @@ body {
   display: none; /* Chrome, Safari, Opera */
 }
 
+/* Testimonial slider animation for Testimonials.jsx */
+.testimonial-slider {
+  animation: testimonialSlide 25s linear infinite;
+}
+
+.testimonial-slider:hover {
+  animation-play-state: paused;
+}
+
+@keyframes testimonialSlide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
 
 

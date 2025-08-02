@@ -24,7 +24,7 @@ const Home = () => {
       From meals to music, tents to planning we handle it all so you can relax and enjoy your event.
     </p>
     <div className='w-full flex items-center justify-center px-5'>
-    <button onClick={handleWhatsApp} className='flex w-full lg:w-[300px] rounded-full items-center justify-center bg-orange-400 text-[13px] p-2.5 font-bold text-white mt-7 cursor-pointer'>Get In Touch Via WhatsApp</button>
+    <button onClick={handleWhatsApp} className='flex w-full lg:w-[300px] rounded-full hover:bg-lime-500 hover:text-gray-700 items-center justify-center bg-orange-400 text-[13px] p-2.5 font-bold text-white mt-7 cursor-pointer'>Get In Touch Via WhatsApp</button>
     </div>
     </div>
   )

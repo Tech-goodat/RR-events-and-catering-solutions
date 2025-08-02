@@ -25,9 +25,9 @@ const Services = () => {
         
         </div>
       <div className="overflow-x-auto w-full mt-5 hide-scrollbar">
-        <div className="card-slider flex gap-5 w-max">
-          {/* Duplicate cards for seamless infinite effect */}
-          {[1,2].map((repeat) => (
+        <div className="card-slider flex gap-5" style={{ minWidth: '1200px', width: 'max-content' }}>
+          {/* Render three sets of cards for seamless infinite effect */}
+          {[1,2,3].map((repeat) => (
             <React.Fragment key={repeat}>
               <div className='flex bg-gray-50 w-[270px] flex-col shadow-md rounded-xl overflow-hidden'>
                 <div className="w-full h-[150px]">

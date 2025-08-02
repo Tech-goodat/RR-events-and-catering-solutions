@@ -24,7 +24,7 @@ const Services = () => {
         </p>
         
         </div>
-      <div className="overflow-hidden w-full mt-5">
+      <div className="overflow-x-auto w-full mt-5 hide-scrollbar">
         <div className="card-slider flex gap-5 w-max">
           {/* Duplicate cards for seamless infinite effect */}
           {[1,2].map((repeat) => (

@@ -33,7 +33,7 @@ Have a question, suggestion, or need support? <span className='font-bold text-or
       <button  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><IoMdPin size={15} className='text-lime-600' /> <span>Kericho county, Kenya.</span></button>
       </div>
 </div>
-<div className='hidden lg: flex flex-col items-center justify-center w-full object-cover'>
+<div className='hidden lg:flex flex-col items-center justify-center w-full object-cover'>
   <img src='/contact.png' alt='contact pic' className='w-[300px] h-auto'/>
 </div>
   </div>

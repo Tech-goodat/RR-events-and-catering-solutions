@@ -2,31 +2,31 @@ import React from 'react';
 
 const testimonials = [
   {
-    name: 'Jane Doe',
+    name: 'Joy Cherono',
     text: 'RR Catering made our wedding unforgettable! The food and service were top-notch.',
     img: '/img1.jpg',
     whois: 'Happy Customer',
   },
   {
-    name: 'John Smith',
+    name: 'Felix',
     text: 'Professional and friendly staff. Our corporate event was a huge success.',
     img: '/pic2.jpg',
     whois: 'Happy Customer',
   },
   {
     name: 'Mary Wanjiku',
-    text: 'The birthday party décor and catering were perfect. Highly recommend!',
+    text: 'The birthday party decor and catering were perfect. Highly recommend!',
     img: '/background1.jpg',
     whois: 'Happy Customer',
   },
   {
-    name: 'Felix Kiprotich',
+    name: 'Griffins',
     text: 'Great attention to detail and delicious meals. Will book again!',
     img: '/background2.jpg',
     whois: 'Satisfied Customer',
   },
   {
-    name: 'Amina Hassan',
+    name: 'Alex & Joan',
     text: 'RR Events handled everything for our anniversary. Stress-free and beautiful!',
     img: '/background3.jpg',
     whois: 'Happy Customer',

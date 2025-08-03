@@ -3,27 +3,27 @@ import React, { useEffect, useRef } from 'react';
 const chefTips = [
   {
     tip: 'Always taste as you cook to adjust seasoning and flavors.',
-    chef: 'Chef Pierre',
+    chef: 'Chef Ngeno',
     img: '/img3.jpg',
   },
   {
     tip: 'Use fresh herbs to elevate the aroma and taste of your dishes.',
-    chef: 'Chef Amina',
+    chef: 'Chef Robert',
     img: '/img13.jpg',
   },
   {
     tip: 'Let meat rest after cooking for juicier results.',
-    chef: 'Chef Felix',
+    chef: 'Chef Ngeno',
     img: '/img10.jpg',
   },
   {
     tip: 'Clean as you go to keep your kitchen organized and efficient.',
-    chef: 'Chef Mary',
+    chef: 'Chef Robert',
     img: '/img5.jpg',
   },
   {
     tip: 'Use a sharp knife for safer and more precise cuts.',
-    chef: 'Chef Hassan',
+    chef: 'Chef Robert',
     img: 'img14.jpg',
   },
 ];

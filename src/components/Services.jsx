@@ -32,7 +32,7 @@ const Services = () => {
               <div className='flex bg-gray-50 w-[270px] flex-col shadow-md rounded-xl overflow-hidden'>
                 <div className="w-full h-[150px]">
                   <img
-                    src='/background1.jpg'
+                    src='/img12.jpg'
                     alt="food image"
                     className='w-full h-full object-cover'
                   />
@@ -47,7 +47,7 @@ const Services = () => {
               <div className='flex bg-gray-50 w-[270px] flex-col shadow-md rounded-xl overflow-hidden'>
                 <div className="w-full h-[150px]">
                   <img
-                    src='/background4.jpg'
+                    src='/img13.jpg'
                     alt="food image"
                     className='w-full h-full object-cover'
                   />
@@ -62,7 +62,7 @@ const Services = () => {
               <div className='flex bg-gray-50 w-[270px] flex-col shadow-md rounded-xl overflow-hidden'>
                 <div className="w-full h-[150px]">
                   <img
-                    src='/background3.jpg'
+                    src='/img5.jpg'
                     alt="food image"
                     className='w-full h-full object-cover'
                   />
@@ -77,7 +77,7 @@ const Services = () => {
               <div className='flex bg-gray-50 w-[270px] flex-col shadow-md rounded-xl overflow-hidden'>
                 <div className="w-full h-[150px]">
                   <img
-                    src='/background2.jpg'
+                    src='/img6.jpg'
                     alt="food image"
                     className='w-full h-full object-cover'
                   />

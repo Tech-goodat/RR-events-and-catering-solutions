@@ -20,14 +20,14 @@ const About = () => {
       <div className='flex gap-4 flex-col items-center justify-center w-full lg:grid lg:grid-cols-4'>
         <div className='col-span-3 w-full h-[280px] lg:h-[350px]'>
           <img 
-            src='/pic1.jpg' 
+            src='/img2.jpg' 
             alt='pic' 
             className='rounded-xl w-full h-full object-cover'
           />
         </div>
         <div className='w-full h-[200px] lg:h-[350px]'>
           <img 
-            src='/pic2.jpg' 
+            src='/img10.jpg' 
             alt='pic' 
             className='rounded-xl w-full h-full object-cover'
           />

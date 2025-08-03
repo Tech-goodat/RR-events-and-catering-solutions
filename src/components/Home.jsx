@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='flex container overflow-x-hidden lg:p-5 flex-col  text-gray-700 font-bold w-full items-center justify-center h-full lg:h-screen'>
       <div className='w-full lg:h-[250px] '>
-      <img src='/background1.jpg' alt="image" className='w-full lg:rounded-xl  h-full object-cover'/>
+      <img src='/img12.jpg' alt="image" className='w-full lg:rounded-xl  h-full object-cover'/>
       </div>
       <h1 className=" p-5 lg:text-4xl text-3xl font-bold text-center mb-2">
          Bringing Flavor, Flair & Full Event Magic

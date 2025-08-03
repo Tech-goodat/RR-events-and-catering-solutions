@@ -19,7 +19,7 @@ import { IoMdPin } from "react-icons/io";
 
 const Contact = () => {
   return (
-<div className='flex flex-col p-5 w-full text-gray-700 items-center justify-center h-screen'>
+<div className='flex flex-col p-5 w-full text-gray-700 items-center justify-center h-full'>
   <div className='flex mb-12 lg:hidden'><img src='/contact.png' alt='contact'  className='w-[300px] h-auto'/></div>
   <div className='flex lg:grid lg:grid-cols-2 gap-5 w-full items-center flex-col lg:justify-center'>
     <div className='flex lg:ml-[50px] items-center flex-col'>

@@ -5,8 +5,8 @@ const Home = () => {
         window.location.href="https://wa.me/254758364336?text=Hello there.Thanks for reaching out to RR Events and Catering Solutions. How May I help you? ", "_blank"
     }
   return (
-    <div className='flex container overflow-x-hidden lg:p-5 flex-col  text-gray-700 font-bold w-full items-center justify-center h-full lg:h-screen'>
-      <div className='w-full lg:h-[250px] '>
+    <div className='flex  overflow-x-hidden lg:p-5 flex-col  text-gray-700 font-bold w-full items-center justify-center h-full lg:h-screen'>
+      <div className='w-full lg:h-[300px] '>
       <img src='/img12.jpg' alt="image" className='w-full lg:rounded-xl  h-full object-cover'/>
       </div>
       <h1 className=" p-5 lg:text-4xl text-3xl font-bold text-center mb-2">

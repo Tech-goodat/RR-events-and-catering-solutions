@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: 'Jane Doe',
     text: 'RR Catering made our wedding unforgettable! The food and service were top-notch.',
-    img: '/pic1.jpg',
+    img: '/img1.jpg',
     whois: 'Happy Customer',
   },
   {

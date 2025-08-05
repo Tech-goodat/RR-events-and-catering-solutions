@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   const handleWhatsApp=()=>{
-        window.location.href="https://wa.me/254758364336?text=Hello there.Thanks for reaching out to RR Events and Catering Solutions. How May I help you? ", "_blank"
+        window.location.href="https://wa.me/254724354310?text=Hello there.", "_blank"
     }
   return (
     <div className='flex  overflow-x-hidden lg:p-5 flex-col  text-gray-700 font-bold w-full items-center justify-center h-full lg:h-screen'>
@@ -13,6 +13,7 @@ const Home = () => {
          Bringing Flavor, Flair & Full Event Magic
       </h1>
       <div className="marquee">
+
   <span>
     <h1 className="lg:text-4xl px-5 text-3xl text-orange-400 font-bold text-center mb-4">
       To Your Special Day

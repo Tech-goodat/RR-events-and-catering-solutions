@@ -1,4 +1,6 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+
+
+import { FaWhatsapp, FaPhone, FaTiktok, FaFacebook, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -34,15 +36,31 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Media */}
+        {/* Contact & Social Details */}
         <div>
-          <h3 className="text-lg text-orange-300 font-semibold mb-4">Follow Us</h3>
-          <div className="flex flex-col gap-3 space-x-4 text-xl text-gray-300">
-            <a href="#" className="hover:text-white"><FaFacebook /></a>
-            <a href="#" className="hover:text-white"><FaTwitter /></a>
-            <a href="#" className="hover:text-white"><FaInstagram /></a>
-            <a href="#" className="hover:text-white"><FaLinkedin /></a>
-          </div>
+          <h3 className="text-lg text-orange-300 font-semibold mb-4">Connect With Us</h3>
+          <ul className="space-y-2 text-gray-300">
+            <li className="flex items-center gap-2">
+              <FaWhatsapp className="text-gray-400 text-lg" />
+              WhatsApp: <a href="https://wa.me/254724354310" target="_blank" rel="noopener noreferrer" className="hover:text-white">0724354310</a>
+            </li>
+            <li className="flex items-center gap-2">
+              <FaPhone className="text-gray-400 text-lg" />
+              Phone: <a href="tel:+254724354310" target="_blank" rel="noopener noreferrer" className="hover:text-white">0724354310</a>
+            </li>
+            <li className="flex items-center gap-2">
+              <FaTiktok className="text-gray-400 text-lg" />
+              TikTok: <span className="font-bold text-white">double r events</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <FaFacebook className="text-gray-400 text-lg" />
+              Facebook: <span className="font-bold text-white">double r events</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <FaEnvelope className="text-gray-400 text-lg" />
+              Email: <a href="mailto:kiplangatngeno035@gmail.com" className="hover:text-white">kiplangatngeno035@gmail.com</a>
+            </li>
+          </ul>
         </div>
       </div>
 

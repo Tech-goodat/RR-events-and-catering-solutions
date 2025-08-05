@@ -1,19 +1,18 @@
-import React from 'react'
+import React from 'react';
 import { MdMarkEmailRead } from "react-icons/md";
 
 const Services = () => {
-  const HandleEmailSends=()=>{
-        window.location.href="https://mail.google.com/mail/?view=cm&fs=1&to=felixkiprotich2000@gmail.com&su=Thank you for reaching out to RR Events and Catering Solutions&body=Hello there.Thanks for reaching out to RR Events and Catering Solutions. How May I help you?",
-            "_blank", "_blank"
-    }
+  const HandleEmailSends = () => {
+    window.location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=kiplangatngeno035@gmail.com&su=Inquiry about Your services&body=Hello there.";
+  };
 
-    const handleCall=()=>{
-        window.location.href="tel:+254758364336"
-    }
+  const handleCall = () => {
+    window.location.href = "tel:+254724354310";
+  };
   return (
     <div className='flex text-gray-700 p-5 flex-col w-full items-center justify-start min-h-full'>
       <div className='flex w-full items-center justify-between'>
-        <button onClick={HandleEmailSends} className='flex hover:bg-lime-500 hover:text-gray-700 cursor-pointer items-center justify-center gap-2 border border-gray-200 p-1 text-[12px] w-[100px] rounded-lg'><MdMarkEmailRead /> Send Email</button>
+        <button onClick={HandleEmailSends} className='flex hover:bg-lime-500 hover:text-gray-700 cursor-pointer items-center justify-center gap-2 border border-gray-200 p-1 text-[12px] w-[120px] rounded-lg'><MdMarkEmailRead /> Send Email</button>
         <h1 className='text-xl font-bold '>Our Services</h1>
         <button onClick={handleCall} className='flex hover:bg-lime-500 hover:text-gray-700 items-center justify-center cursor-pointer w-[100px] bg-orange-400 text-white text-[12px] font-bold p-2 rounded-full shadow-sm'>Make a Call</button>
       </div>

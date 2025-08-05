@@ -13,8 +13,9 @@ import { IoMdPin } from "react-icons/io";
     }
 
     const handleCall=()=>{
-        window.location.href="tel:+254758364336"
+        window.location.href="tel:+254724354310"
     }
+
 
 
 const Contact = () => {
@@ -27,10 +28,11 @@ const Contact = () => {
     <p className='text-gray-600  text-[12px] '>We'd love to hear from you!
 Have a question, suggestion, or need support? <span className='font-bold text-orange-400 ml-2'>Feel free to reach out.</span> Our team is ready to assist you!</p>
     <div className='flex text-gray-500 gap-8 w-full flex-col mt-5'>
-      <button onClick={handleCall}  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><FaPhoneAlt  size={15} className='text-lime-600'/> <span> Click to make a call : +254-758-364-336</span></button>
+      <button onClick={handleCall}  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><FaPhoneAlt  size={15} className='text-lime-600'/> <span> Click to make a call : +254-724-354-310</span></button>
       <button  onClick={handleWhatsApp} className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[11px] font-bold'><FaWhatsapp size={15} className='text-lime-600' /> <span>Click here to chat on whatsapp</span></button>
-      <button onClick={HandleEmailSends}  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><MdMarkEmailRead size={15} className='text-lime-600' /> <span>Click to send email : felixkiprotich2000@gmail.com</span></button>
-      <button  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><IoMdPin size={15} className='text-lime-600' /> <span>Kericho county, Kenya.</span></button>
+      <button onClick={HandleEmailSends}  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><MdMarkEmailRead size={15} className='text-lime-600' /> <span>Click to send email : kiplangatngeno035@gmail.com
+ </span></button>
+      <button  className='flex w-full items-center hover:text-gray-700 cursor-pointer hover:underline gap-2 text-[12px] font-bold'><IoMdPin size={15} className='text-lime-600' /> <span>Kericho Mwananchi building along Nakuru - Kisumu highway.</span></button>
       </div>
 </div>
 <div className='hidden lg:flex flex-col items-center justify-center w-full object-cover'>

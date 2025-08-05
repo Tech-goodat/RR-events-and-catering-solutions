@@ -32,7 +32,7 @@ const Footer = () => {
           <ul className="space-y-2 text-gray-300">
             <li>Email: <a href="mailto:felixkiprotich2000@gmail.com" className="hover:text-white">Send a message</a></li>
             <li>Phone: <a href="tel:+254758364336" className="hover:text-white">+254 758 364 336</a></li>
-            <li>Location: Kericho, Kenya</li>
+            <li>Location: Kericho mwananchi building along Nakuru - Kisumu high way.</li>
           </ul>
         </div>
 

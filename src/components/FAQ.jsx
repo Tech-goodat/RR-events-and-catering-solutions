@@ -29,13 +29,16 @@ const faqs = [
 
 const FAQ = () => {
   const [open, setOpen] = useState(null);
+   const handleCall = () => {
+    window.location.href = "tel:+254724354310";
+  };
 
   return (
-    <div className="bg-gradient-to-br from-orange-50 via-white to-orange-100 min-h-screen py-12 px-4 flex flex-col items-center">
-      <h2 className="text-4xl font-extrabold text-orange-500 mb-4 tracking-tight drop-shadow-lg">Frequently Asked Questions</h2>
-      <p className="text-gray-700 mb-10 max-w-2xl text-center text-lg font-medium">
+    <div className="bg-gradient-to-br  mt-4 from-orange-50 via-white to-orange-100 min-h-screen py-12 px-4 flex flex-col items-center">
+      <h2 className="text-3xl font-extrabold text-orange-500 mb-4 tracking-tight drop-shadow-lg">Frequently Asked Questions</h2>
+      <p className="text-gray-700 mb-10 max-w-2xl  text-[16px] font-medium">
         Find answers to the most common questions about our catering and event services.<br />
-        <span className="text-orange-400 font-bold">Still have questions? <a href="#contact" className="underline hover:text-orange-500">Contact us!</a></span>
+        <span className="text-orange-400 font-bold">Still have questions? <a onClick={handleCall} href="#contact" className="underline text-gray-600 hover:text-orange-500">Contact us!</a></span>
       </p>
       <div className="max-w-2xl w-full space-y-4">
         {faqs.map((faq, idx) => (

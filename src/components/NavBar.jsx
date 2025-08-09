@@ -56,7 +56,7 @@ const NavBar = ({ activeSection }) => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className='absolute top-12 left-0 w-full bg-white shadow-lg h-screen p-5 flex flex-col gap-10 items-start'>
+        <div className='absolute top-10 left-0 w-full bg-white shadow-lg h-screen  p-5 flex flex-col gap-8 items-start'>
           <HashLink smooth to="/#home" className={hashLinkClass('home')} onClick={toggleMenu}><FaHome size={20} />Home</HashLink>
           <HashLink smooth to="/#about" className={hashLinkClass('about')} onClick={toggleMenu}><FaQuestionCircle size={20}/>About</HashLink>
           <HashLink smooth to="/#contact" className={hashLinkClass('contact')} onClick={toggleMenu}><IoIosContacts size={20}/>Contact</HashLink>

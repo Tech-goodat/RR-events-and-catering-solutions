@@ -82,7 +82,7 @@ const posts = [
     date: "2024-12-01",
     category: "Seasonal & Thematic",
     excerpt: "Explore our special holiday menus and décor packages for a magical Christmas party.",
-    img: "/img15.jpg",
+    img: "/img7.jpg",
     cta: "Reserve your festive package."
   },
   {
@@ -130,8 +130,9 @@ const posts = [
 ];
 
 const Blog = () => (
-  <div className="bg-gray-50 min-h-screen py-10 px-4 flex flex-col items-center">
-    <h2 className="text-3xl font-bold text-orange-500 mb-8">Blog & Articles</h2>
+  <div className="bg-gray-50 min-h-screen mt-10 py-10 px-4 flex flex-col items-center">
+    <h2 className="text-3xl font-bold text-orange-500 mb-2">Blog & Articles</h2>
+    <p className='text-[16px] mb-2'>Coming soon !</p>
     <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {posts.map((p, i) => (
         <div key={i} className="bg-white rounded-xl shadow-md overflow-hidden flex flex-col hover:shadow-lg transition">
@@ -141,9 +142,9 @@ const Blog = () => (
             <h3 className="font-bold text-gray-700 text-lg mb-2">{p.title}</h3>
             <p className="text-xs text-gray-400 mb-2">{p.date}</p>
             <p className="text-gray-600 mb-4 flex-1">{p.excerpt}</p>
-            <button className="mt-auto bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-400 font-bold transition">
+            {/* <button className="mt-auto bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-400 font-bold transition">
               Read More
-            </button>
+            </button> */}
             <div className="mt-2 text-xs text-gray-500">{p.cta}</div>
           </div>
         </div>

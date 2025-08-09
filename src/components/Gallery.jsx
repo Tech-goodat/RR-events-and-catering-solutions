@@ -10,17 +10,17 @@ const galleryImages = [
   { src: "/img12.jpg", alt: "Decor details" },
   { src: "/img13.jpg", alt: "Signature dish" },
   { src: "/img14.jpg", alt: "Valentine's dinner" },
-  { src: "/img15.jpg", alt: "Christmas party" },
+  { src: "/img7.jpg", alt: "Christmas party" },
   { src: "/img16.jpg", alt: "Graduation party" },
   { src: "/img17.jpg", alt: "Award ceremony" },
 ];
 
 const Gallery = () => (
-  <div className="bg-gradient-to-br from-orange-50 via-white to-orange-100 min-h-screen py-12 px-4 flex flex-col items-center">
+  <div className="bg-gradient-to-br mt-5 from-orange-50 via-white to-orange-100 min-h-screen py-12 px-4 flex flex-col items-center">
     <h2 className="text-4xl font-extrabold text-orange-500 mb-4 tracking-tight drop-shadow-lg">Event Gallery</h2>
-    <p className="text-gray-700 mb-10 max-w-2xl text-center text-lg font-medium">
+    <p className="text-gray-700  mb-10 max-w-2xl text-center text-[180x] font-medium">
       Explore our favorite moments from weddings, corporate events, parties, and more.<br />
-      <span className="text-orange-400 font-bold">Every photo is a story of joy, creativity, and perfection.</span>
+      <span className="text-orange-400 text-[14px]  font-bold">Every photo is a story of joy, creativity, and perfection.</span>
     </p>
     <div className="max-w-6xl w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
       {galleryImages.map((img, i) => (

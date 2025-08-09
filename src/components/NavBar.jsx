@@ -65,8 +65,8 @@ const NavBar = ({ activeSection }) => {
           <HashLink smooth to="/#testimonials" className={hashLinkClass('testimonials')} onClick={toggleMenu}><MdOutlineTipsAndUpdates size={20}/>Testimonials</HashLink>
           <Link to="/blog" className={routeLinkClass('/blog')} onClick={toggleMenu}><GrBlog size={20} />Blog</Link>
           <Link to="/gallery" className={routeLinkClass('/gallery')} onClick={toggleMenu}><FaServicestack size={20} />Gallery</Link>
-          <Link to="/faq" className={routeLinkClass('/faq')} onClick={toggleMenu}>FAQ</Link>
-          <Link to="/map-directions" className={routeLinkClass('/map-directions')} onClick={toggleMenu}>Map & Directions</Link>
+          <Link to="/faq" className={routeLinkClass('/faq')} onClick={toggleMenu}><FaQuestion  size={20} />FAQ</Link>
+          <Link to="/map-directions" className={routeLinkClass('/map-directions')} onClick={toggleMenu}><FaMapMarkerAlt size={20} />Map & Directions</Link>
 
         </div>
       )}
